@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #2b2929;
+    font-family: "Noto Sans", sans-serif;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapersmug.com%2Fw%2Fdownload%2F1600x900%2Fthe-batman-2022-55692127588&psig=AOvVaw2SrrXEqgnsTs4nliR5KZ-M&ust=1713784096917000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIDcprWV04UDFQAAAAAdAAAAABAE");
+    background-size: cover;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-right: 40px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-account {
+    background-image: url("holder.jpeg");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+/* .nav-account:hover {
+    border: 1px solid rgba(255, 255, 255, 0.329);
+} */
+
+.nav-gmail {
+    margin-right: 20px;
+}
+
+.nav-content a {
+    color: rgba(245, 241, 241, 0.824);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.nav-content a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.google-logo {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.image-container {
+    width: 300px;
+    height: 100px;
+    background-image: url("https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png");
+    background-size: cover;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    justify-content: space-between;
+}
+
+.quotes {
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    align-items: center;
+    height: 60px;
+    color: white;
+}
+
+.kota {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 145px;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 25px;
+    background-color: #313030;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.kota:hover {
+    border: 0.01rem solid #7a7474;
+}
+
+form {
+    display: flex; /* Makes form items align horizontally */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px; /* Adds some padding around the form */
+    border-radius: 25px; /* Rounds the edges */
+    background-color: white; /* Sets the background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    width: 600px;
+    height: 30px;
+}
+
+.search-icon {
+    width: 24px; /* Set width for the images */
+    height: 24px; /* Set height for the images */
+    border-radius: 50%; /* Optional: Round images to create a circular appearance */
+    background-color: white; /* Set white background color for the images */
+    margin-right: 10px; /* Spacing between images and input */
+}
+
+.search-input {
+    flex: 1; /* Ensures the input field expands to fill available space */
+    border: none; /* Removes the default border */
+    outline: none; /* Hides the outline when the input is focused */
+    padding: 10px; /* Adds padding inside the input field */
+    font-size: 16px; /* Sets the font size */
+    border-radius: 25px; /* Rounds the edges of the input field */
+    background-color: white;
+}
+
+.search-button {
+    background: none; /* No background for the button */
+    border: none; /* Removes the border */
+    color: gray; /* Sets the button text color */
+    font-size: 16px; /* Sets the font size */
+    cursor: pointer; /* Shows the pointer cursor on hover */
+    padding: 10px; /* Adds padding to the button */
+}
+
+.search-button:hover {
+    color: black; /* Changes the button text color on hover */
+}
+
+
+.google-lang {
+    font-size: 1.1rem;
+    color: white;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.google-lang a {
+    color: rgb(19, 142, 213);
+    text-decoration: none;
+}
+
+.google-lang a:hover {
+    text-decoration: underline;
+}
